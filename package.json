@@ -24,6 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.11",
     "nodemon": "^2.0.15",
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "redis": "^4.0.6"
   }
 }

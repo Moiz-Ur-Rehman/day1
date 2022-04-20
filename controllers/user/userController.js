@@ -1,6 +1,7 @@
 const User = require("../../models/userSchema.js");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const { client } = require("../../redis.js");
 //const { verifyRefresh } = require("../../middlewares/verifyToken");
 
 // verify refresh token
